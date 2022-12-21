@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Somewhere</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function(){
+            // invoke the carousel
+                $('#indicators').carousel({
+                interval:false
+                });
+
+            // scroll indicators on mouse scroll 
+            $('#indicators').bind('mousewheel DOMMouseScroll', function(e){
+
+                    if(e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
+                        $(this).carousel('prev');
+                    }
+                    else{
+                        $(this).carousel('next'); 
+                    }
+                });
+
+            //Social media linking
+            $("#media img").click(function(){ window.location.href = $(this).attr("data-src"); });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="slide-wrapper">
+            <div id="indicators" class="carousel vert slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#indicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#indicators" data-slide-to="1"></li>
+                    <li data-target="#indicators" data-slide-to="2"></li>
+                    <li data-target="#indicators" data-slide-to="3"></li>
+                    <li data-target="#indicators" data-slide-to="4"></li>
+                    <li data-target="#indicators" data-slide-to="5"></li>
+                    <li data-target="#indicators" data-slide-to="6"></li>
+                    <li data-target="#indicators" data-slide-to="7"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <section class="panel">
+                            <img id="logo1" src="assets/LOGO Text.png" alt="logo">
+                            <img id="logo2" src="assets/LOGO Pic.png" alt="logo-pic">
+                            <a id="b1" data-target="#indicators" data-slide-to="1" href=".Menu">Menu</a>
+                            <a id="b2" data-target="#indicators" data-slide-to="5" href="Store">Store</a>
+                            <a id="b3" data-target="#indicators" data-slide-to="7" href="About">About</a>
+                        </section>
+                        <section class="content">
+                            <p id="ph1">Special Homemade Pastries, A Hub of Delectables Foods, and Soothing Ambience.</p>
+                            <img id="pica" src="assets/MILKTEA Pic.png" alt="pica">
+                            <img id="picb" src="assets/cake4.png" alt="picb">
+                            <img id="picc" src="assets/Cake5.png" alt="picc">
+                        </section>
+                    </div>
+                    <div class="carousel-item">
+                        <section class="menu">
+                            <h1 id="t1">Menu</h1>
+                            <p id="p1">MENU / IN THE OVEN </p>
+                            <p id="p2">FEATURED PASTRY</p>
+                            <img id="pic1" src="assets/cake1.png" alt="pic1">
+                            <p id="pd1">Classic Chocolate Cake</p>
+                            <img id="pic2" src="assets/cake2.png" alt="pic2">
+                            <p id="pd2">Classic Chocolate Cake</p>
+                            <img id="pic3" src="assets/cake3.png" alt="pic3">
+                            <p id="pd3">Classic Chocolate Cake</p>
+                            <img id="pic4" src="assets/cake4.png" alt="pic4">
+                            <p id="pd4">Classic Chocolate Cake</p>
+                        </section>  
+                    </div>
+                    <div class="carousel-item">
+                        <section class="menu2">
+                            <p id="p3">MENU / IN THE OVEN</p>
+                            <p id="p4">FEATURED CAKE</p>
+                            <img id="pic5" src="assets/Cake5.png" alt="pic5">
+                            <p id="pd5">Classic Chocolate Cake</p>
+                            <img id="pic6" src="assets/Cake6.png" alt="pic6">
+                            <p id="pd6">Classic Chocolate Cake</p>
+                            <img id="pic8" src="assets/Cake7.png" alt="pic8">
+                            <p id="pd8">Classic Chocolate Cake</p>
+                            <img id="pic7" src="assets/Cake8.png" alt="pic7">
+                            <p id="pd7">Classic Chocolate Cake</p>
+                        </section>
+                    </div>
+                    <div class="carousel-item">
+                        <section class="menu3">
+                            <p id="p5">MENU / FOOD HUB </p>
+                            <p id="p6">FEATURED PIZZA</p>
+                            <img id="pic9" src="assets/cake9.png" alt="pic9">
+                            <p id="pd9">Pepperoni Pizza</p>
+                            <img id="pic10" src="assets/cake10.png" alt="pic10">
+                            <p id="pd10">Pepperoni Pizza</p>
+                            <img id="pic11" src="assets/cake11.png" alt="pic11">
+                            <p id="pd11">Pepperoni Pizza</p>
+                            <img id="pic12" src="assets/cake12.png" alt="pic12">
+                            <p id="pd12">Pepperoni Pizza</p>
+                        </section>
+                    </div>
+                    <div class="carousel-item">
+                        <section class="menu4">
+                            <p id="p7">MENU / FOOD HUB </p>
+                            <p id="p8">FEATURED FOOD</p>
+                            <img id="pic13" src="assets/FH2.png" alt="pic13">
+                            <p id="pd13">Pepperoni Pizza</p>
+                            <img id="pic14" src="assets/FH1.png" alt="pic14">
+                            <p id="pd14">Pepperoni Pizza</p>
+                            <img id="pic15" src="assets/FH4.png" alt="pic15">
+                            <p id="pd15">Pepperoni Pizza</p>
+                            <img id="pic16" src="assets/FH3.png" alt="pic16">
+                            <p id="pd16">Pepperoni Pizza</p>
+                        </section>
+                    </div>
+                    <div class="carousel-item">
+                        <section class="store">
+                            <h1 id="t2">Store</h1>
+                            <section id="pics1">
+                                <img id="pic17" src="assets/image 1.png" alt="pic17">
+                                <img id="pic18" src="assets/image 2.png" alt="pic18">
+                                <img id="pic19" src="assets/image 3.png" alt="pic19">
+                                <img id="pic20" src="assets/image 4.png" alt="pic20">
+                                <img id="pic21" src="assets/image 5.png" alt="pic21">
+                                <img id="pic22" src="assets/image 6.png" alt="pic22">
+                            </section>
+                        </section>
+                    </div>
+                    <div class="carousel-item">
+                        <section class="orders">
+                            <h1 id="t3">Orders</h1>
+                            <section id="pics2">
+                                <img id="pic23" src="assets/image 7.png" alt="pic23">
+                                <img id="pic24" src="assets/image 8.png" alt="pic24">
+                                <img id="pic25" src="assets/image 9.png" alt="pic25">
+                                <img id="pic26" src="assets/image 10.png" alt="pic26">
+                                <img id="pic27" src="assets/image 11.png" alt="pic27">
+                                <img id="pic28" src="assets/image 12.png" alt="pic28">
+                            </section>
+                        </section>
+                    </div>
+                    <div class="carousel-item">
+                        <section class="about">
+                            <img id="logo3" src="assets/LOGO Pic.png" alt="logo3">
+                            <img id="logo4" src="assets/LOGO Text2.png" alt="logo4">
+                            <p id="pi1">Bukang-Liwayway, Candelaria, Macabebe, Pampanga</p>
+                            <p id="pi2">Contact Us: 0999-655-2512</p>
+                            <section id="media">
+                                <img id="logo5" src="assets/fb logo 1.png" alt="logo5" data-src="https://www.facebook.com/Somewhereintheovenpastries">
+                            <img id="logo6" src="assets/ig logo 1.png" alt="logo6" data-src="https://www.instagram.com/somewhereintheoven/">
+                            </section>
+                            <p id="pi3">Ⓒ Somewhere in Heaven 2021, All right reserved.</p>
+                            <img id="pic29" src="assets/Vector3.png" alt="pic29">
+                            <img id="pic30" src="assets/bread1.png" alt="pic30">
+                            <img id="pic31" src="assets/braed2.png" alt="pic31">
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
