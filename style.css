@@ -1220,11 +1220,459 @@
 .menu{
     width: 100%;
     height: 100%;
-    background: url("assets/Vector 1.png") white;
+    background: url("assets/Vector1.png") white;
+    background-size: 125%;
     color: black;
     font-family: 'Montserrat';
     font-style: normal;
     position: absolute;
 }   
+    #t1{ 
+        text-align: right;     
+        margin: 1% 5% 0% 5%; 
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 73px;
+    }
+    #p1{
+        margin: 0% 10%;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 18px;
+    }
+    #p2{
+        margin: 0% 10%;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 43px;
+    }
+    #pd1,#pd2,#pd3,#pd4{
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        background: black;
+        border: 3px solid black;
+        border-radius: 15px;
+        box-sizing: border-box;
+        width: 160px;
+        height: 30px;
+        position: absolute;
+    }
+    .menu img{
+        border: 10px solid black;
+        background-color: black;
+        border-radius: 300px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+    }
+    #pic1{ 
+        left: 10%;
+        top: 25%;
+    }
+    #pd1{
+        left: 10%;
+        top: 45%;
+    }
+    #pic2{     
+        left: 55%;
+        top: 25%;
+    }
+    #pd2{
+        left: 55%;
+        top: 45%;
+    }
+    #pic3{
+        left: 10%;
+        top: 65%;
+    }
+    #pd3{
+        left: 10%;
+        top: 85%;
+    }
+    #pic4{
+        left: 55%;
+        top: 65%;
+    }
+    #pd4{
+        left: 55%;
+        top: 85%;
+    } 
+/*Third Slide*/
+.menu2{
+    width: 100%;
+    height: 100%;
+    background: url("assets/Vector2.png") white;
+    background-size: 100%;
+    color: black;
+    font-family: 'Montserrat';
+    font-style: normal;
+    position: absolute;
+}
+    #p3,#p4{
+        text-align: right;
+        margin: 0% 10% 0% 5%;
+    }
+    #p3{
+        margin-top: 18%;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 18px;
+    }
+    #p4{
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 43px;
+    }
+    #pd5,#pd6,#pd7,#pd8{
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        background: black;
+        border: 3px solid black;
+        border-radius: 15px;
+        box-sizing: border-box;
+        width: 160px;
+        height: 30px;
+        position: absolute;
+    }
+    .menu2 img{
+        border: 10px solid black;
+        background-color: black;
+        border-radius: 300px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+    }
+    #pic5{ 
+        left: 10%;
+        top: 25%;
+    }
+    #pd5{
+        left: 10%;
+        top: 45%;
+    }
+    #pic6{     
+        left: 55%;
+        top: 25%;
+    }
+    #pd6{
+        left: 55%;
+        top: 45%;
+    }
+    #pic7{
+        left: 10%;
+        top: 65%;
+    }
+    #pd7{
+        left: 10%;
+        top: 85%;
+    }
+    #pic8{
+        left: 55%;
+        top: 65%;
+    }
+    #pd8{
+        left: 55%;
+        top: 85%;
+    } 
 
+
+/*Fourth Slide*/
+.menu3{
+    width: 100%;
+    height: 100%;
+    background: url("assets/Vector5.png") white;
+    background-size: 125%;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    position: absolute;
+}
+    #p5,#p6{
+        margin: 0% 10% 0% 5%;
+    }
+    #p5{
+        margin: 0% 10%;
+        margin-top: 20%;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 18px;
+    }
+    #p6{
+        margin: 0% 10%;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 43px;
+    }
+    #pd9,#pd10,#pd11,#pd12{
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        background: #9B754A;
+        border: 3px solid #9B754A;
+        border-radius: 15px;
+        box-sizing: border-box;
+        width: 160px;
+        height: 30px;
+        position: absolute;
+    }
+    .menu3 img{
+        border: 10px solid #9B754A;
+        background-color: #9B754A;
+        border-radius: 300px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+    }
+    #pic9{ 
+        left: 10%;
+        top: 25%;
+    }
+    #pd9{
+        left: 10%;
+        top: 45%;
+    }
+    #pic10{     
+        left: 55%;
+        top: 25%;
+    }
+    #pd10{
+        left: 55%;
+        top: 45%;
+    }
+    #pic11{
+        left: 10%;
+        top: 65%;
+    }
+    #pd11{
+        left: 10%;
+        top: 85%;
+    }
+    #pic12{
+        left: 55%;
+        top: 65%;
+    }
+    #pd12{
+        left: 55%;
+        top: 85%;
+    } 
+
+/*Fifth Slide*/
+.menu4{
+    width: 100%;
+    height: 100%;
+    background: url("assets/Vector6.png") white;
+    background-size: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    position: absolute;
+}
+    #p7,#p8{
+        text-align: right;
+        margin: 0% 10% 0% 5%;
+    }
+    #p7{
+        margin-top: 18%;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 18px;
+    }
+    #p8{
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 43px;
+    }
+    #pd13,#pd14,#pd15,#pd16{
+        color: white;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        background: #9B754A;
+        border: 3px solid #9B754A;
+        border-radius: 15px;
+        box-sizing: border-box;
+        width: 160px;
+        height: 30px;
+        position: absolute;
+    }
+    .menu4 img{
+        border: 10px solid #9B754A;
+        background-color: #9B754A;
+        border-radius: 300px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+    }
+    #pic13{ 
+        left: 10%;
+        top: 25%;
+    }
+    #pd13{
+        left: 10%;
+        top: 45%;
+    }
+    #pic14{     
+        left: 55%;
+        top: 25%;
+    }
+    #pd14{
+        left: 55%;
+        top: 45%;
+    }
+    #pic15{
+        left: 10%;
+        top: 65%;
+    }
+    #pd15{
+        left: 10%;
+        top: 85%;
+    }
+    #pic16{
+        left: 55%;
+        top: 65%;
+    }
+    #pd16{
+        left: 55%;
+        top: 85%;
+    } 
+
+/*Sixth Slide*/
+.store{
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: white;
+}
+    #pics1{
+        margin: 0% 5% 0% 5%;
+    }
+    #t2{
+        margin: 10% 0% 1% 7%;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 73px;
+    }
+    .store img{
+        width: 45%;
+        height: 45%;
+        margin: 0% 2% 5% 2%;
+    }
+
+/*Seventh Slide*/
+.orders{
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: white;
+}
+    #pics2{
+        margin: 0% 5% 0% 5%;
+    }
+    #t3{
+        margin: 10% 0% 1% 7%;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 73px;
+    }
+    .orders img{
+        width: 45%;
+        height: 45%;
+        margin: 0% 2% 5% 2%;
+    }
+
+/*Eighth Slide*/
+.about{
+    width: 100%;
+    height: 100%;
+    background: black;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+    #logo3{
+        border: 3px solid #9B754A;
+        border-radius: 500px;
+        width: 40px;
+        height: 40px;
+        z-index: 1;
+        position: absolute;
+        left: 8%;
+        top: 2%;
+    }
+    #logo4{
+        margin: 2% 5%;
+        width: 400px;
+        height: 50px;
+        z-index: 0;
+    }
+    #logo5,#logo6{
+        width: 50px;
+        height: 50px;
+        margin: 70% 1%;
+    }
+    #logo5{
+        margin-left: 37%;
+    }
+    .about p{
+        text-align: center;
+        color: white;
+    }
+    #pi1,#pi2{
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: .3%;
+        text-transform: capitalize;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    #pi1{
+        position: absolute;
+        top: 10%;
+        left: 18%;
+        width: 500px;
+        width: 300px;
+    }
+    #pi2{
+        position: absolute;
+        top: 35%;
+        left: 34%;
+        width: 150px;
+    }
+    #pi3{
+        position: absolute;
+        top: 90%;
+        left: 13%;
+        z-index: 1;
+    }
+    #pic30,#pic31{
+        width: 275px;
+        height: 275px;
+    }
+    #pic29{
+        position: absolute;
+        top: 75%;
+        z-index: 0;
+    }   
+    #pic30{
+        position: absolute;
+        top: 67%;
+        right: 50%;
+        z-index: 0;
+    }
+    #pic31{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        z-index: 0;
+    }
 }
