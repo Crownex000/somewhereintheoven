@@ -29,7 +29,14 @@
 
             //Social media linking
             $("#media img").click(function(){ window.location.href = $(this).attr("data-src"); });
-            $('.indicators').bcSwipe({ threshold: 50 });
+            
+            //Swipe for mobile
+            $("#indicators").swiperight(function() {
+            $(this).carousel('prev');
+            });
+            $("#indicators").swipeleft(function() {
+            $(this).carousel('next');
+            });
             });
         </script>
     </head>
