@@ -12,6 +12,7 @@
         <script>
             $(document).ready(function(){
             // invoke the carousel
+
                 $('#indicators').carousel({
                 interval:false
                 });
@@ -26,9 +27,6 @@
                         $(this).carousel('next'); 
                     }
                 });
-
-            //Social media linking
-            $("#media img").click(function(){ window.location.href = $(this).attr("data-src"); });
             
             //Swipe for mobile
             $("#indicators").swiperight(function() {
@@ -37,12 +35,14 @@
             $("#indicators").swipeleft(function() {
                 $(this).carousel('next');
             });
+            //Social media linking
+            $("#media img").click(function(){ window.location.href = $(this).attr("data-src"); });
             });
         </script>
     </head>
     <body>
         <div class="slide-wrapper">
-            <div id="indicators" class="carousel vert slide" data-ride="carousel">
+            <div id="indicators" class="carousel vert slide" data-ride="carousel" data-bs-touch="true">
                 <ol class="carousel-indicators">
                     <li data-target="#indicators" data-slide-to="0" class="active"></li>
                     <li data-target="#indicators" data-slide-to="1"></li>
