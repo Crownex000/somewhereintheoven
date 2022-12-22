@@ -38,7 +38,7 @@
                     if( Math.floor(yClick - yMove) > sensitivityInPx ){
                         $(this).carousel('next');
                     }
-                    else if( Math.floor(xClick - yMove) < -sensitivityInPx ){
+                    else if( Math.floor(yClick - yMove) < -sensitivityInPx ){
                         $(this).carousel('prev');
                     }
                 });
