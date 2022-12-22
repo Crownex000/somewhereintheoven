@@ -18,7 +18,7 @@
                 });
 
             // scroll indicators on mouse scroll 
-            $('#indicators').bind('mousewheel DOMMouseScroll', function(e){
+            $('.carousel').bind('mousewheel DOMMouseScroll', function(e){
 
                     if(e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
                         $(this).carousel('prev');
