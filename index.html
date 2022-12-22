@@ -35,7 +35,7 @@
                     const yMove = event.originalEvent.touches[0].pageY;
                     const sensitivityInPx = 5;
 
-                    if( Math.floor(xClick - yMove) > sensitivityInPx ){
+                    if( Math.floor(yClick - yMove) > sensitivityInPx ){
                         $(this).carousel('next');
                     }
                     else if( Math.floor(xClick - yMove) < -sensitivityInPx ){
