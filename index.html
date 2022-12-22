@@ -12,6 +12,7 @@
         <script>
             $(document).ready(function(){
             // invoke the carousel
+                $('#indicators').bcSwipe({ threshold: 50 });
                 $('#indicators').carousel({
                 interval:false
                 });
@@ -32,10 +33,10 @@
             
             //Swipe for mobile
             $("#indicators").swiperight(function() {
-            $(this).carousel('prev');
+                $(this).carousel('prev');
             });
             $("#indicators").swipeleft(function() {
-            $(this).carousel('next');
+                $(this).carousel('next');
             });
             });
         </script>
