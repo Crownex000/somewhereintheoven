@@ -30,15 +30,15 @@
             
             //Swipe for mobile
             $('.carousel').on('touchstart', function(event){
-                const xClick = event.originalEvent.touches[0].pageX;
+                const yClick = event.originalEvent.touches[0].pageY;
                 $(this).one('touchmove', function(event){
-                    const xMove = event.originalEvent.touches[0].pageX;
+                    const yMove = event.originalEvent.touches[0].pageY;
                     const sensitivityInPx = 5;
 
-                    if( Math.floor(xClick - xMove) > sensitivityInPx ){
+                    if( Math.floor(xClick - yMove) > sensitivityInPx ){
                         $(this).carousel('next');
                     }
-                    else if( Math.floor(xClick - xMove) < -sensitivityInPx ){
+                    else if( Math.floor(xClick - yMove) < -sensitivityInPx ){
                         $(this).carousel('prev');
                     }
                 });
